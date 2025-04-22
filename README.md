@@ -1,4 +1,4 @@
-# Project: Performance Comparison of Row-Oriented vs. Column-Oriented Databases on AWS
+# Performance Comparison of Row-Oriented vs. Column-Oriented Databases on AWS
 
 ## Summary
 
