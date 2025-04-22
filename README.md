@@ -1,0 +1,1 @@
+# Performance-Comparison-of-Row-Oriented-vs.-Column-Oriented-Databases-on-AWS
