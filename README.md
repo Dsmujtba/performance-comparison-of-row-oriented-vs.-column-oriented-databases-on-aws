@@ -23,7 +23,7 @@ The primary goal of this project was to empirically investigate and understand t
 
     **Entity Relationship Diagram (ERD):**
     ![TPC-H Derived ERD](images/erd.png)
-    *(Note: Ensure 'erd.png' is present in an 'images' subdirectory)*
+    
 
 ### 3. Workloads Tested:
 
