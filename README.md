@@ -67,7 +67,7 @@ The following table summarizes the measured execution times:
 
 ### Visual Summary of Key Performance Differences:
 ![Analytical Queries Performance](./images/comp_1.png)
-![Transactional Operations Performance](./images/comp_2)
+![Transactional Operations Performance](./images/comp_2.png)
 
 
 ## Discussion & Analysis
