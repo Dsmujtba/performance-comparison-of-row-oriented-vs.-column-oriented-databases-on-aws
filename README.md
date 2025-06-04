@@ -65,6 +65,11 @@ The following table summarizes the measured execution times:
 | INSERTs (50 single rows)  | **7.48 s** | **624 ms** | Row store handles single-row writes much more efficiently           |
 | DELETEs (50 single rows)  | **3.69 s** | **460 ms** | Row store handles single-row deletes much more efficiently          |
 
+### Visual Summary of Key Performance Differences:
+![Analytical Queries Performance](./images/comp_1.png)
+![Transactional Operations Performance](./images/comp_2)
+
+
 ## Discussion & Analysis
 
 The results clearly align with the theoretical strengths and weaknesses of each storage architecture:
@@ -78,4 +83,11 @@ This project provides practical, quantitative evidence supporting the fundamenta
 * For **analytical workloads** requiring fast scans and aggregations over large datasets (OLAP), **column-oriented** systems like Amazon Redshift offer significant performance advantages due to reduced I/O and optimized processing.
 * For **transactional workloads** involving frequent single-row reads, inserts, updates, and deletes (OLTP), **row-oriented** systems like PostgreSQL remain highly efficient due to their data layout optimizing for record-level operations.
 
-Understanding these performance characteristics is essential for designing scalable, cost-effective, and performant data systems in the cloud. Matching the storage engine to the application's access patterns is a critical aspect of effective data architecture.
+## Key Skills & Learning Outcomes:
+
+* **Performance Benchmarking & Analysis:** Designed and executed database performance tests, meticulously measuring and comparing execution times for diverse workloads.
+* **Database Internals Understanding:** Gained a deep understanding of how row-oriented and column-oriented storage architectures impact query performance for OLAP and OLTP scenarios.
+* **AWS Database Services:** Acquired hands-on experience configuring, managing, and querying **AWS RDS for PostgreSQL** and **Amazon Redshift**.
+* **SQL & Query Optimization Awareness:** Worked with complex analytical SQL queries (TPC-H) and understood how database architecture influences their efficiency.
+* **Problem Solving & Analytical Thinking:** Systematically investigated a common data architecture challenge and derived data-backed conclusions.
+* **Technical Documentation:** Clearly documented methodology, results, and analysis.
